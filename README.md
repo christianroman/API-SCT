@@ -144,6 +144,7 @@ Bugs/Cosas por hacer
   - Traducir coordenadas de SCT a Google Mercator (o quiza a SRID=4326).
   - Obtener precio de litro de combustible via API (Alguna API del gobierno).
   - Posibilidad de agregar puntos intermedios.
+  - Añadir excepciones, lo se soy un flojo.
 
 License
 -

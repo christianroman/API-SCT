@@ -12,12 +12,12 @@ Parametros
 -
   - **ciudad_origen**: ID de la ciudad origen, Actualmente los IDs vienen en el archivo ```data.json```.
   - **ciudad_destino**: ID de la ciudad destino, Actualmente los IDs vienen en el archivo ```data.json```.
-  - **vehiculos**: Tipo de vehiculo (Opcional).
-  - **calcula_rendimiento**: Calcula el combustible necesario. (Opcional).
-  - **tamanio_vehiculo**: Tamaño del vehiculo (Cilindraje cm3) (Opcional).
-  - **rendimiento**: Rendimiento del vehiculo estimado (Km/lt) (Opcional).
-  - **combustible**: Costo del litro de combustible. (Opcional).
-  - **zonas_urbanas**: Despligue de Zonas Urbanas (Opcional).
+  - **vehiculos**: Tipo de vehiculo (Opcional). Valor por defecto *2* (Automóvil).
+  - **calcula_rendimiento**: Calcula el combustible necesario. (Opcional). Valor por defecto *false*.
+  - **tamanio_vehiculo**: Tamaño del vehiculo (Cilindraje cm3) (Opcional). Valor por defecto *2* (4 cilindros).
+  - **rendimiento**: Rendimiento del vehiculo estimado (Km/lt) (Opcional). Valor por defecto *14* km/lt.
+  - **combustible**: Costo del litro de combustible. (Opcional). Valor por defecto *11.45*.
+  - **zonas_urbanas**: Despligue de Zonas Urbanas (Opcional). Valor por defecto *false*.
 
 Ejemplo
 -
@@ -122,7 +122,7 @@ Parametros - Posibles valores
 
 **combustible** (Precio actual del combustible, puede ser cualquier valor)
 
-  - **11.14** - Gasolina Magna
+  - **11.25** - Gasolina Magna
   - **11.70** - Gasolina Premium
   - **11.50** - Pemex Diesel
   - **9.97** - Gas L.P.
@@ -138,7 +138,7 @@ Instalación
 Instalar gems necesarios:
 ```bundle install```
 
-Correr la aplicación:
+Desplegar la aplicación:
 ```rackup config.ru```
 
 Datos tecnicos

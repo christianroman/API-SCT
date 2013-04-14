@@ -10,8 +10,8 @@ Una API para extraer rutas entre dos destinos, calculando tramos, costos, y comb
 
 Parametros
 -
-  - **ciudad_origen**: ID de la ciudad origen.
-  - **ciudad_destino**: ID de la ciudad destino.
+  - **ciudad_origen**: ID de la ciudad origen, Actualmente los IDs vienen en el archivo ```data.json```.
+  - **ciudad_destino**: ID de la ciudad destino, Actualmente los IDs vienen en el archivo ```data.json```.
   - **vehiculos**: Tipo de vehiculo (Opcional).
   - **calcula_rendimiento**: Calcula el combustible necesario. (Opcional).
   - **tamanio_vehiculo**: Tamaño del vehiculo (Cilindraje cm3) (Opcional).
@@ -120,7 +120,7 @@ Parametros - Posibles valores
   - **11.50** - Pemex Diesel
   - **9.97** - Gas L.P.
 
-Instalacion
+Instalación
 -
 
 Instalar gems necesarios:
@@ -137,6 +137,13 @@ La API utiliza lo siguiente:
   - Sinatra - Framework.
   - Nokogiri - Parsear HTML.
   - HTTParty - Recibir response de SCT.
+
+Bugs/Cosas por hacer
+-----------
+
+  - Traducir coordenadas de SCT a Google Mercator (o quiza a SRID=4326).
+  - Obtener precio de litro de combustible via API (Alguna API del gobierno).
+  - Posibilidad de agregar puntos intermedios.
 
 License
 -

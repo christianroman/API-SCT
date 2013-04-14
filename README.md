@@ -12,12 +12,12 @@ Parametros
 -
   - **ciudad_origen**: ID de la ciudad origen, Actualmente los IDs vienen en el archivo ```data.json```.
   - **ciudad_destino**: ID de la ciudad destino, Actualmente los IDs vienen en el archivo ```data.json```.
-  - **vehiculos**: Tipo de vehiculo (Opcional). Valor por defecto *2* (Automóvil).
-  - **calcula_rendimiento**: Calcula el combustible necesario. (Opcional). Valor por defecto *false*.
-  - **tamanio_vehiculo**: Tamaño del vehiculo (Cilindraje cm3) (Opcional). Valor por defecto *2* (4 cilindros).
-  - **rendimiento**: Rendimiento del vehiculo estimado (Km/lt) (Opcional). Valor por defecto *14* km/lt.
-  - **combustible**: Costo del litro de combustible. (Opcional). Valor por defecto *11.45*.
-  - **zonas_urbanas**: Despligue de Zonas Urbanas (Opcional). Valor por defecto *false*.
+  - **vehiculos**: Tipo de vehiculo (Opcional). Valor por defecto ```2``` (Automóvil).
+  - **calcula_rendimiento**: Calcula el combustible necesario. (Opcional). Valor por defecto ```false```.
+  - **tamanio_vehiculo**: Tamaño del vehiculo (Cilindraje cm3) (Opcional). Valor por defecto ```2``` (4 cilindros).
+  - **rendimiento**: Rendimiento del vehiculo estimado (Km/lt) (Opcional). Valor por defecto ```14``` (km/lt).
+  - **combustible**: Costo del litro de combustible. (Opcional). Valor por defecto ```11.45```.
+  - **zonas_urbanas**: Despligue de Zonas Urbanas (Opcional). Valor por defecto ```false```.
 
 Ejemplo
 -

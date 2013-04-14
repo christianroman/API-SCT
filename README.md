@@ -22,7 +22,8 @@ Parametros
 Ejemplo
 -
 **Petición:**
-```curl -XPOST -H "Accept: application/json" -H "Content-Type: application/json" "http://0.0.0.0:9292/rutas" -d '
+```js
+curl -XPOST -H "Accept: application/json" -H "Content-Type: application/json" "http://0.0.0.0:9292/rutas" -d '
 {
   "ciudad_origen": "9010",
   "ciudad_destino": "12010",

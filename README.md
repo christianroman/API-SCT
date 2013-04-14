@@ -82,43 +82,43 @@ Parametros - Posibles valores
 
 **calcula_rendimiento**
 
-**true**
-**false**
+  - **true**
+  - **false**
 
 **vehiculos** - Tipo de vehiculo
 
-**1** - Motocicleta
-**2** - Automóvil
-**3** - Automóvil remolque 1 eje
-**4** - Automóvil remolque 2 eje
-**5** - Pick Ups
-**6** - Autobus 2 ejes
-**7** - Autobus 3 ejes
-**8** - Autobus 4 ejes
-**9** - Camión 2 ejes
-**10** - Camión 3 ejes
-**11** - Camión 4 ejes
-**12** - Camión 5 ejes
-**13** - Camión 6 ejes
-**14** - Camión 7 ejes
-**15** - Camión 8 ejes
-**16** - Camión 9 ejes
+  - **1** - Motocicleta
+  - **2** - Automóvil
+  - **3** - Automóvil remolque 1 eje
+  - **4** - Automóvil remolque 2 eje
+  - **5** - Pick Ups
+  - **6** - Autobus 2 ejes
+  - **7** - Autobus 3 ejes
+  - **8** - Autobus 4 ejes
+  - **9** - Camión 2 ejes
+  - **10** - Camión 3 ejes
+  - **11** - Camión 4 ejes
+  - **12** - Camión 5 ejes
+  - **13** - Camión 6 ejes
+  - **14** - Camión 7 ejes
+  - **15** - Camión 8 ejes
+  - **16** - Camión 9 ejes
 
 
 **tamanioVehiculo** - Tamaño del vehiculo (Cilindraje)
 
-**1** - 2 Cilindros
-**2** - 4 Cilindros
-**3** - 6 Cilindros
-**4** - 8 Cilindros
+  - **1** - 2 Cilindros
+  - **2** - 4 Cilindros
+  - **3** - 6 Cilindros
+  - **4** - 8 Cilindros
 
 
 **combustible** (Precio actual del combustible, puede ser cualquier valor)
 
-**11.14** - Gasolina Magna
-**11.70** - Gasolina Premium
-**11.50** - Pemex Diesel
-**9.97** - Gas L.P.
+  - **11.14** - Gasolina Magna
+  - **11.70** - Gasolina Premium
+  - **11.50** - Pemex Diesel
+  - **9.97** - Gas L.P.
 
 Instalacion
 -
@@ -133,10 +133,10 @@ Datos tecnicos
 -----------
 
 La API utiliza lo siguiente:
-
-* Sinatra - Framework.
-* Nokogiri - Parsear HTML.
-* HTTParty - Recibir response de SCT.
+  
+  - Sinatra - Framework.
+  - Nokogiri - Parsear HTML.
+  - HTTParty - Recibir response de SCT.
 
 License
 -

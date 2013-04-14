@@ -21,7 +21,7 @@ Parametros
 
 Ejemplo
 -
-**Petición:**
+**Petición (Ruta: Mexico, DF - Acapulco):**
 ```js
 curl -XPOST -H "Accept: application/json" -H "Content-Type: application/json" "http://0.0.0.0:9292/rutas" -d '
 {
@@ -80,10 +80,13 @@ curl -XPOST -H "Accept: application/json" -H "Content-Type: application/json" "h
 Parametros - Posibles valores
 -
 
-**calcula_rendimiento**
+**ciudad_origen**
 
-  - **true**
-  - **false**
+ - Cualquier ID de alguna ciudad. Ver ciudades disponibles en ```data.json```
+
+**ciudad_destino**
+
+ - Cualquier ID de alguna ciudad. Ver ciudades disponibles en ```data.json```
 
 **vehiculos** - Tipo de vehiculo
 
@@ -104,6 +107,10 @@ Parametros - Posibles valores
   - **15** - Camión 8 ejes
   - **16** - Camión 9 ejes
 
+**calcula_rendimiento**
+
+  - **true**
+  - **false**
 
 **tamanioVehiculo** - Tamaño del vehiculo (Cilindraje)
 
@@ -119,6 +126,11 @@ Parametros - Posibles valores
   - **11.70** - Gasolina Premium
   - **11.50** - Pemex Diesel
   - **9.97** - Gas L.P.
+
+ **zonas_urbanas**
+
+  - **true**
+  - **false**
 
 Instalación
 -
